@@ -1,0 +1,161 @@
+ .dhx_diagram_template_a_box {
+        background-color: transparent;
+    }
+  
+    .dhx_diagram_template_a_box {
+        padding: 0;
+        border: 1px solid #dfdfdf;
+        background-color: #fff;
+        overflow: hidden;
+    }
+    .dhx_diagram_template_a {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        width: 100%;
+        height: 100%;
+        padding: 12px;
+    }
+    .dhx_diagram_template_a__inside {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        width: 100%;
+    }
+    .dhx_diagram_template_a__picture {
+        width: 60x;
+        min-width: 60px;
+        height :60px;
+        border-radius: 50%;
+        background-size:100% 100%;
+        background: center center/cover no-repeat #f7f7f7;
+    }
+    .dhx_diagram_template_a__picture:before {
+        content: "";
+        display: block;
+        padding-top: 100%;
+    }
+ .toggle_container {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        cursor: pointer;
+        height: 20px;
+        width: 20px;
+    }
+    .toggle_container .template_icon {
+        height: 20px;
+        width: 20px;
+        margin: 0px;
+    }
+     .toggle_container .template_icon_add {
+        height: 30px;
+        width: 30px;
+        margin-right: 20px;
+    }
+    .dhx_diagram_template_a__body {
+        padding-left: 12px;
+        min-width: 200px;
+    }
+    .dhx_diagram_template_a__title,
+    .dhx_diagram_template_a__text {
+        font: normal 14px/20px Roboto, sans-serif;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+    .dhx_diagram_template_a__title {
+        text-align: start;
+        color: rgba(0, 0, 0, 0.7);
+        font-weight: 500;
+    }
+    .dhx_diagram_template_a__row {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        margin: 4px 0;
+    }
+    .dhx_diagram_template_a__icon {
+        font-size: 18px;
+        margin-right: 4px;
+        color: rgba(0, 0, 0, 0.7);
+    }
+    .dhx_diagram_template_a__text {
+        color: rgba(0, 0, 0, 0.7);
+    }
+    .dhx_diagram_template_a__link {
+        color: #0288d1;
+    }
+    .dhx-diagram-demo_network-card {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background: #F7F7F7;
+        width: 100%;
+        height: 100%;
+        border: 1px solid #DFDFDF;
+        overflow: hidden;
+    }
+    .dhx-diagram-demo_network-card span {
+        font-weight: 300;
+        line-height: 20px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        width: 100%;
+        text-align: center;
+    }
+    .dhx-diagram-demo_network-card span:not(:last-child) {
+        font-weight: 500;
+        margin-top: 16px;
+    }
+    .dhx-diagram-demo_network-card img {
+        width: 64px;
+        height: 64px;
+        pointer-events: none;
+        border-radius: 50%;
+    }
+    .dhx-diagram-demo_group {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        overflow: hidden;
+    }
+    .dhx-diagram-demo_group__image {
+        height: 64px;
+        width: 64px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .dhx-diagram-demo_group__text {
+        overflow: hidden;
+        padding-top: 10px;
+        text-align: center;
+                word-wrap: break-word;
+        white-space: pre-wrap;
+
+        font-weight: 500;
+        line-height: 20px;
+        min-height: 50px;
+        width: 100%;
+    }
+    .send {
+      background-color: #e1dbdb;
+      font-size: 15px;
+      border: 1px solid #d3dbe8;
+      padding: 10px 50px;
+      cursor: pointer,
+      height:15px
+    }
+    .send:hover {
+      color: #000000;
+      background-color: #ffffff;
+    }
