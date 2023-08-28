@@ -1,7 +1,15 @@
  .dhx_diagram_template_a_box {
         background-color: transparent;
     }
-  
+  .dhx_diagram, .dhx_sample-controls {
+        background: #FFF;
+    }
+     .dhx_diagram__scale-container{
+       background: #fff;
+    }
+    .dhx_diagram{
+        background: #fff;
+    }
     .dhx_diagram_template_a_box {
         padding: 0;
         border: 1px solid #dfdfdf;
