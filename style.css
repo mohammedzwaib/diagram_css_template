@@ -22,8 +22,11 @@
         width: 100%;
     }
     .dhx_diagram_template_a__picture {
-        width: 90px;
-        min-width: 90px;
+        width: 60x;
+        min-width: 60px;
+        height :60px;
+        border-radius: 50%;
+        background-size:100% 100%;
         background: center center/cover no-repeat #f7f7f7;
     }
     .dhx_diagram_template_a__picture:before {
